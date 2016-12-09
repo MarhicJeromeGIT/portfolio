@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require bootstrap.min
-//= require freelancer.min
+//= jquery.easing.1.3
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
