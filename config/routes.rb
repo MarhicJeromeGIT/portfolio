@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   root 'static_pages#index'
 
+  get 'credits', to: 'static_pages#credits'
 end
