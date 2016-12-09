@@ -12,6 +12,7 @@
  *
  *= require bootstrap.min
  *= require freelancer.min
+ *= require font-awesome.min
  *= require_tree .
  *= require_self
  */
