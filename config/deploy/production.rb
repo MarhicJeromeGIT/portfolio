@@ -31,6 +31,7 @@ server '52.211.249.61', user: 'ubuntu', roles: %w{app db web}
 # For available Capistrano configuration variables see the documentation page.
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
+set :rails_env, :production
 
 
 
