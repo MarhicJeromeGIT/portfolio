@@ -54,4 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "haml-rails", "~> 0.9"
+# Generate PDF for my resume
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary' 
 

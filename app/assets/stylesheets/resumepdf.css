@@ -1,0 +1,10 @@
+
+/* Some customisation for the pdf version of my resume */
+
+body{
+  margin: auto;
+  max-width: 100%;
+  padding: 30px;
+  border: none;
+}
+

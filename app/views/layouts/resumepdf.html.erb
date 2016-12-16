@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marhic Jerome Resume</title>
+    <%= csrf_meta_tags %>
+    <%#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%#= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= wicked_pdf_stylesheet_link_tag "resume" -%>
+    <%= wicked_pdf_stylesheet_link_tag "freelancer"  %>
+    <%= wicked_pdf_stylesheet_link_tag "resumepdf" %>
+    <script src="https://use.fontawesome.com/1a23159120.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+  <body id="page-top" class="index">
+    <%= yield %>
+  </body>
+</html>

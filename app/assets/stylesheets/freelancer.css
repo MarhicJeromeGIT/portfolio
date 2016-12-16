@@ -499,7 +499,14 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1052;
 }
+
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
+
+.about-paragraph {
+  text-align: justify;
+}
+
+

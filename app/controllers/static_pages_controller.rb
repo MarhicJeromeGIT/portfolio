@@ -6,6 +6,4 @@ class StaticPagesController < ApplicationController
   def credits
   end
 
-  def resume
-  end
 end

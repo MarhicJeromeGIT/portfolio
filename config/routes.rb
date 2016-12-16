@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   get 'credits', to: 'static_pages#credits'
-  get 'resume', to: 'static_pages#resume'
+  get 'resume', to: 'resume#resume', defaults: {format: 'html'}
 end
