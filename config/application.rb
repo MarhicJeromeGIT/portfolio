@@ -13,5 +13,8 @@ module Portfolio
     # -- all .rb files in that directory are automatically loaded.
     config.assets.paths << Rails.root.join("vendor", "assets", "fonts")
     config.assets.paths << Rails.root.join("vendor", "assets", "portfolio")
+
+    I18n.available_locales = [:fr, :en, :ja]
+    I18n.default_locale = :fr
   end
 end

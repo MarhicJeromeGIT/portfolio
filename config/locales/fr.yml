@@ -19,9 +19,8 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
-  french: "Francais"
-  english: "English"
-  japanese: "Japanese"
-  about_perso: "I am a freelance web developer, specialized in Ruby on Rails application development. Currently based in Paris, I am available for mission work, either on site or telework."
+fr:
+  french: 'Francais'
+  english: 'English'
+  japanese: 'Japanese'
+  about_perso: 'Je suis un d√veloppeur web freelance, spxcialis√© dans le veloppement'

@@ -509,4 +509,9 @@ fieldset[disabled] .btn-success.active {
   text-align: justify;
 }
 
-
+.language {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  margin: 5px;
+}

@@ -28,9 +28,14 @@
                     <li>
                        <%= link_to 'Resume', resume_path, target: "blank" %>
                     </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                    <div class="language" >
+                      <%= link_to (I18n.t 'french'), { :locale=>'fr' } %>|
+                      <%= link_to (I18n.t 'english'), { :locale=>'en' } %>|
+                      <%= link_to (I18n.t 'japanese'), { :locale=>'ja' } %>| 
+                    </div>
+                  </ul>
+                </div>     
+           </div>
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -136,7 +141,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p class="about-paragraph">I am a freelance web developer, specialized in Ruby on Rails application development. Currently based in Paris, I am available for mission work, either on site or telework.</p>
+                    <p class="about-paragraph"><%= I18n.t 'about_perso' %></p>
                 </div>
                 <div class="col-lg-4">
 			<p class="about-paragraph">Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc). </p>
