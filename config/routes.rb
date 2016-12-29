@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get 'credits', to: 'static_pages#credits'
   get 'resume', to: 'resume#resume', defaults: {format: 'html'}
+  get 'stocks_jpg', to: 'static_pages#stocks_jpg', defaults: {format: 'jpg'}
+
 end
