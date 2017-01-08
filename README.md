@@ -1,24 +1,11 @@
-# README
+BandanaTech
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://www.bandanatech.org
 
-Things you may want to cover:
+Marhic Jerome - Freelance Web Development
 
-* Ruby version
+Ruby On Rails - AWS
 
-* System dependencies
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/MarhicJeromeGIT/web-development-stack)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+marhic.jerome[AT]gmail[DOT]com
