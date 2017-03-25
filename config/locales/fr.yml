@@ -1,26 +1,21 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 fr:
   french: 'Francais'
   english: 'English'
   japanese: 'Japanese'
   about_perso: "Je suis un développeur web freelance, spécialisé dans le développement d'applications Ruby On Rails."
+  about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc).'
+  about: 'A propos'
+  portfolio: 'Portfolio'
+  contact: 'Contact'
+  resume: 'CV'
+  subtitle: 'Développeur Web Back-End / Ruby On Rails / Devops'
+  download_resume: 'Télécharger le CV'
+  contact_me: 'Me contacter'
+  name: 'Nom'
+  email: 'Adresse email'
+  phone: 'Téléphone'
+  message: 'Message'
+  send: 'Envoyer'
+  location: 'Localisation'
+  location_value: 'Seoul, Corée du sud<br>Actuellement disponible pour télétravail uniquement' 
+  around_the_web: 'Sur le web'
