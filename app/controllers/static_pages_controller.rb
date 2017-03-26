@@ -12,4 +12,9 @@ class StaticPagesController < ApplicationController
   def credits
   end
 
+  def contact
+    respond_to do |format|
+      format.js { flash[:success] = I18n.t 'contact_success' }
+    end
+  end
 end

@@ -1,0 +1,7 @@
+$('.loader').hide();
+$('button[type="submit"]').attr('disabled', false);
+$("#notice").html("<%= flash[:success] %>");
+$('#notice').show();
+$("#notice").fadeTo(2000, 500).slideUp(500, function(){
+    $("#notice").slideUp(500);
+});
