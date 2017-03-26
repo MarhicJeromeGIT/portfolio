@@ -317,7 +317,6 @@ footer .footer-below {
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -419,7 +418,7 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
-  line-height: 45px;
+  line-height: 40px;
 }
 .btn:focus,
 .btn:active,
@@ -553,3 +552,6 @@ fieldset[disabled] .btn-success.active {
   transform: translate(-50%, -50%);
 }
 
+.list-inline a:hover{
+  filter: invert(30%);
+}
