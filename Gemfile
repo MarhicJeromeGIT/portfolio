@@ -59,3 +59,4 @@ gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary' 
 gem 'imgkit'
 gem 'dotenv-rails'
+gem "font-awesome-rails"
