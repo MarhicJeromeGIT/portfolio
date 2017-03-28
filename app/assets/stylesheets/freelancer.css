@@ -555,3 +555,9 @@ fieldset[disabled] .btn-success.active {
 .list-inline a:hover{
   filter: invert(30%);
 }
+
+#carousel .carousel-inner{
+ width: 200px;
+ height: 200px;
+ margin: 0 auto;
+}

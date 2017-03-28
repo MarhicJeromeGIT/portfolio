@@ -60,3 +60,5 @@ gem 'wkhtmltopdf-binary'
 gem 'imgkit'
 gem 'dotenv-rails'
 gem "font-awesome-rails"
+gem "twitter-bootstrap-rails"
+
