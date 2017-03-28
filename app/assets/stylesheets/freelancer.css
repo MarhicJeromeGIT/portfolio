@@ -561,3 +561,8 @@ fieldset[disabled] .btn-success.active {
  height: 200px;
  margin: 0 auto;
 }
+
+.carousel-control.right,
+.carousel-control.left{
+  background-image: none;
+}
