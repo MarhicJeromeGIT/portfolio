@@ -58,3 +58,4 @@ gem "haml-rails", "~> 0.9"
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary' 
 gem 'imgkit'
+gem 'dotenv-rails'

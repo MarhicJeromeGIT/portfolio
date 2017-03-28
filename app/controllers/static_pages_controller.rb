@@ -13,6 +13,7 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
+    ContactMailer.contact_email(name: params[:name], email: params[:email], phone: params[:phone], content: params[:text]).deliver_now
     respond_to do |format|
       format.js { flash[:success] = I18n.t 'contact_success' }
     end
