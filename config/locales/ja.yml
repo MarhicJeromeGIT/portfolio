@@ -1,26 +1,23 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 ja:
   french: 'Francais'
   english: 'English'
-  japanese: 'Japanese'
-
+  japanese: '日本語'
+  about_perso: "フリーランス Web開発者Jeromeと申します。専門はRuby on Rails (ROR)アプリの開発。いろいろプロジェクトの経験を持ちます。"
+  about_skills: '使用した技術は Amazon Web Services, Linux, Reactも含める。コンピュータ大学出身 (Master of Sciences),　前の経験はゲーム開発　(C++/OpenGL)をふくめる'
+  about: '自己紹介'
+  portfolio: 'ポートフォリオ'
+  contact: '連絡先'
+  references: '推薦'
+  resume: '推薦'
+  subtitle: 'バックエンドの開発 / Ruby On Rails / サーバーの構築'
+  download_resume: '履歴書ダウンロード'
+  contact_me: '連絡する'
+  name: '名前'
+  email: 'メールアドレス'
+  phone: '電話番号'
+  message: 'メッセージ'
+  send: '送る'
+  location: '所在地'
+  location_value: 'ソウル、韓国<br>' 
+  around_the_web: '他の'
+  contact_success: 'メールを送りました'
