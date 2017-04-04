@@ -557,12 +557,20 @@ fieldset[disabled] .btn-success.active {
 }
 
 #carousel .carousel-inner{
- width: 200px;
- height: 200px;
- margin: 0 auto;
+ width: 80%;
+ //min-height: 200px;
+ margin: auto auto;
 }
 
 .carousel-control.right,
 .carousel-control.left{
   background-image: none;
+}
+
+.carousel-image-container{
+  min-height: 200px;
+}
+
+.carousel-caption{
+  background-color: rgba(1, 1, 1, 0.38);
 }
