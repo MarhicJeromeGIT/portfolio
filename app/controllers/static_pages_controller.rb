@@ -4,11 +4,17 @@ class StaticPagesController < ApplicationController
   end
   
   def stocks_jpg
-    # Create image of my portoflio websites: Stocks
+    # Create image of my portfolio websites: Stocks
     kit = IMGKit.new('https://stocks.bandanatech.org')
     send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
-  end 
-  
+  end
+
+  def blog_jpg
+    # Create image of my blog (github pages) 
+    kit = IMGKit.new('https://marhicjeromegit.github.io')
+    send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
+  end
+
   def credits
   end
 
