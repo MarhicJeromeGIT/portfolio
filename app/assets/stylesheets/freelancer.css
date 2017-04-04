@@ -574,3 +574,7 @@ fieldset[disabled] .btn-success.active {
 .carousel-caption{
   background-color: rgba(1, 1, 1, 0.38);
 }
+
+.bordered-image{
+  border: 1px solid black;
+}
