@@ -1,7 +1,7 @@
 fr:
   french: 'Francais'
   english: 'English'
-  japanese: 'Japanese'
+  japanese: '日本語'
   about_perso: "Je suis un développeur web freelance, spécialisé dans le développement d'applications Ruby On Rails."
   about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc).'
   about: 'A propos'
