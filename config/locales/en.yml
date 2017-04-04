@@ -1,27 +1,23 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
-  french: "Francais"
-  english: "English"
-  japanese: "Japanese"
-  about_perso: "I am a freelance web developer, specialized in Ruby on Rails application development. Currently based in Paris, I am available for mission work, either on site or telework."
+  french: 'Francais'
+  english: 'English'
+  japanese: 'Japanese'
+  about_perso: "I am a freelance back-end web developer, specialized in Ruby On Rails application development. I have realized multiples applications and admin interfaces."
+  about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc).'
+  about: 'About'
+  portfolio: 'Portfolio'
+  contact: 'Contact'
+  references: 'References'
+  resume: 'Resume'
+  subtitle:  'Back-End Web Developer / Ruby On Rails / Devops'
+  download_resume: 'Download resume'
+  contact_me: 'Contact Me'
+  name: 'Name'
+  email: 'Email'
+  phone: 'Phone'
+  message: 'Message'
+  send: 'Send'
+  location: 'Location'
+  location_value: 'Seoul, South Korea<br>Currently only available for telework'
+  around_the_web: 'Around the  web'
+  contact_success: 'The message was sent ! Thank you for your contact'
