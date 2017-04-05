@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
-  $('button[type="submit"]').click ->
+  $('#contactForm').parsley().on 'form:submit', ->
     $('.loader').show()
-    $(this).attr('disabled', true)
-    $('#contactForm').submit()
+    $('button[type="submit"]').attr('disabled', true)
+

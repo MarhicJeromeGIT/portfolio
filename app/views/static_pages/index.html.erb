@@ -129,18 +129,18 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <%= form_tag contact_path(locale: I18n.locale), id:"contactForm", remote: true %>
+                    <%= form_tag contact_path(locale: I18n.locale), id:"contactForm", remote: true, 'data-parsley-validate': '' %>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><%= I18n.t 'name' %></label>
-                                <%= text_field_tag :name, nil, class: "form-control", placeholder: (I18n.t 'name'), id:"name" %>
+                                <%= text_field_tag :name, nil, class: "form-control", placeholder: (I18n.t 'name')+'*', id:"name", required: true %>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><%= I18n.t 'email' %></label>
-                                <%= email_field_tag :email, nil, class:"form-control", placeholder: (I18n.t 'email'), id:"email" %>
+                                <%= email_field_tag :email, nil, class:"form-control", placeholder: (I18n.t 'email')+'*', id:"email", required: true %>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label><%= I18n.t 'message' %></label>
-                                <%= text_area_tag :text, nil, rows:"5", class:"form-control", placeholder: (I18n.t 'message'),  id:"message" %>
+                                <%= text_area_tag :text, nil, rows:"5", class:"form-control", placeholder: (I18n.t 'message')+'*',  id:"message", required: true %>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>

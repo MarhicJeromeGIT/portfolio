@@ -14,4 +14,5 @@
 //= jquery.easing.1.3
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require parsley.min
 //= require_tree .
