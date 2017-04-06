@@ -1,12 +1,19 @@
+<!-- download button only in the html version -->
+%div
+  - if request.format == :html
+    = link_to resume_path(format: 'pdf'), class:"btn-success download-button", download: "marhic_jerome_resume.pdf" do
+      %i.fa.fa-download
+      = I18n.t 'download_resume'
+
 %div#resume
   %div
-    .row#personal.note
+    .row#personal
       .col-lg-3
         .row Marhic Jerome
         .row 39 rue du Poitou
         .row 44115 Basse-Goulaine
         .row France
-      .col-lg-3
+      .col-lg-3.second-col
         .row marhic.jerome@gmail.com
         .row 07.68.18.51.36
         .row www.bandanatech.org
@@ -28,7 +35,7 @@
         %ul
           %li 
             Rails 5
-            %i.fa.three_stars
+            %i.fa.five_stars
             %br
             %small RVM, Capistrano, Devise, OAuth2
           %li
@@ -36,6 +43,9 @@
             %i.fa.four_stars
             %br
             %small EC2, RDS, Route 53
+          %li
+            Javascript, JQuery, React
+            %i.fa.three_stars
       .col-lg-6
         %h4 Interests
         .row
@@ -51,14 +61,22 @@
       %h2.section_header
         Work Experience
       %ul
-        %li 
-          January 2016-February 2017 
-          Prium Solutions, Paris, France
-          Ruby on Rails developer. Developed multiple websites and applications for various clients. Server management.
         %li
-          November 2011-December 2013
-          Visual Concepts Korea, Seoul, South Korea
-          Game developer. C++. Worked on the 
+          %b April 2017-Present
+          %i South Korea, Japan.
+          Freelance web developer. Working on personal projects and traveling in Asia.
+        %li 
+          %b
+            January 2016-Mars 2017 
+          %i
+            Prium Solutions, Paris, France.
+          Ruby on Rails developer. Developed multiple websites and applications in a variety of domain for internal use and external clients. Server management. Under the direction of Pierre Nouaille-Degorce.
+        %li
+          %b
+            November 2011-December 2013
+          %i
+            Visual Concepts Korea, Seoul, South Korea.
+          Game developer. C++. Developpement of the Pro Baseball 2K online game. Under the direction of Jonathan Rivera. 
     .row#languages
       %h2.section_header
         Languages
@@ -71,15 +89,21 @@
           Fluent (TOEIC 985, many years abroad including USA and Australia)
         %li
           %b Japanese
-          Conversational (JLPT 2, December 2015. JLPT 1, waiting for results announcement. 1 year in Japan)
+          Conversational (JLPT 2, December 2015. 1 year in Japan)
         %li
           %b Korean
           Basis (TOPIK 5, November 2014. 2 years in South Korea)
     .row#education
       %h2.section_header
         Education
-      None
-
-
-
+      %ul
+        %li
+          %b Second quarter, 2011
+          %i Rochester Institute of Technology, USA.
+          Exchange semester. Several courses including Opengl and Computer Vision, matlab.
+        %li
+          %b 2006-2011
+          %i National Institute of Applied Sciencesi (INSA), Rennes. 
+          Master of Sciences, Computer sciences. OOP (C++, Java), Linux and scripting languages, Logic, compilation, etc.
+           
 

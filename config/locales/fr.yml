@@ -3,7 +3,7 @@ fr:
   english: 'English'
   japanese: '日本語'
   about_perso: "Je suis un développeur web freelance, spécialisé dans le développement d'applications Ruby On Rails."
-  about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc).'
+  about_skills: "Diplômé d'école d'ingénieur en informatique, mes expériences précédentes incluent le développement de jeux vidéos (C++/OpenGL) professionnels et indépendants. Je suis également intéressé par l'IAI (robotics - softbank pepper, google tensorflow, amazon aurora etc)."
   about: 'A propos'
   portfolio: 'Portfolio'
   contact: 'Contact'
@@ -21,4 +21,5 @@ fr:
   location_value: 'Seoul, Corée du sud<br>Actuellement disponible pour télétravail uniquement' 
   around_the_web: 'Sur le web'
   contact_success: 'Le message a été envoyé ! Merci pour votre contact.'
-  stock_description: "<a href='https://stocks.bandanatech.org'>Stocks</a> est une application qui permet de suivre le prix d'une action et de recevoir une alerte lorsqu'il atteint une certaine valeur.<br> J'utilise ce projet pour expérimenter de nouvelles techniques de développement  (TDD, intégration continue, Gitflow, Slack, Trello) et tester des technologies (Rails, React, Redis...), gemmes Ruby et plugins JS dans un contexte applicatif concret."
+  stock_description: "<a href='https://stocks.bandanatech.org'>Stocks</a> est une application qui permet de suivre le prix d'une action et de recevoir une alerte lorsqu'elle atteint une certaine valeur.<br> J'utilise ce projet pour expérimenter de nouvelles techniques de développement  (TDD, intégration continue, Gitflow, Slack, Trello) et tester des technologies (Rails, React, Redis...), gemmes Ruby et plugins JS dans un contexte applicatif concret."
+  blog_description: "<a href='https://marhicjeromegit.github.io/' >marhicjeromegit.github.io</a> est mon blog (github page) à propos de ruby et de la programmation en général."

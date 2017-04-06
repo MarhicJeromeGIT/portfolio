@@ -64,6 +64,13 @@ body{
   }
 }
 
+.five_stars{
+  float: right;
+  &::before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+  }
+}
+
 h1{
   text-align: center;
 }
@@ -71,5 +78,17 @@ h1{
 .vertical-line{
   border-right: solid 3px lightblue;
 }
+
+.row#education{
+  page-break-before : always;
+}
+
+.download-button{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+}
+
 
 
