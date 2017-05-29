@@ -15,6 +15,12 @@ class StaticPagesController < ApplicationController
     send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
   end
 
+  def iknow_jpg
+     # Create image of my blog (github pages) 
+    kit = IMGKit.new('https://petstore.swagger.io/?url=http://iknow.bandanatech.org/')
+    send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
+  end
+
   def credits
   end
 
