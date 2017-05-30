@@ -18,7 +18,10 @@
         .row 07.68.18.51.36
         .row www.bandanatech.org
       .col-lg-3.pull-right
-        %img.pull-right.id_pic{src: "http://prium-solutions.com/wp-content/uploads/2016/11/jerome-150x150.jpg"}
+        - if controller.request.format == 'application/pdf'
+          = wicked_pdf_image_tag 'photo_cv', class: 'pull-right id_pic'
+        - else
+          = image_tag 'photo_cv', class: 'pull-right id_pic'
     %h1
       Web Developer Fullstack
       %br
@@ -62,7 +65,7 @@
           %small Amazon Aurora, Google Tensorflow
         .row
           Criptocurrencies:
-          %small Bitcoin
+          %small Bitcoin, Ethereum
     .row#work
       %h2.section_header
         Work Experience
@@ -99,6 +102,8 @@
         %li
           %b Korean
           Basis (TOPIK 5, November 2014. 2 years in South Korea)
+    - if controller.request.format == 'application/pdf'
+      %div.alwaysbreak
     .row#education
       %h2.section_header
         Education

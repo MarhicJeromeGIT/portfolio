@@ -578,3 +578,7 @@ fieldset[disabled] .btn-success.active {
 .bordered-image{
   border: 1px solid black;
 }
+
+.about-paragraph a{
+  color: black;
+}

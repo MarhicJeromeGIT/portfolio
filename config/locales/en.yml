@@ -2,8 +2,8 @@ en:
   french: 'Francais'
   english: 'English'
   japanese: '日本語'
-  about_perso: "I am a freelance back-end web developer, specialized in Ruby On Rails application development. I have realized multiples applications and admin interfaces."
-  about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc).'
+  about_perso: "I am a freelance back-end web developer, specialized in Ruby On Rails application development. I have realized multiples applications and admin interfaces. <br> See my software stack: <a href='https://stackshare.io/MarhicJeromeGIT/web-development-stack'>Stackshare link</a>"
+  about_skills: 'Computer Science graduate (MSc), my previous experiences include game development (C++/OpenGL), and I am interested in the AI fields (robotics - softbank pepper, google tensorflow, amazon aurora etc) and cryptocurrencies.'
   about: 'About'
   portfolio: 'Portfolio'
   contact: 'Contact'
@@ -18,7 +18,8 @@ en:
   message: 'Message'
   send: 'Send'
   location: 'Location'
-  location_value: 'Seoul, South Korea<br>Currently only available for telework'
+  location_value: 'Nantes, France'
   around_the_web: 'Around the  web'
   contact_success: 'The message was sent ! Thank you for your contact'
   stock_description: "<a href='https://stocks.bandanatech.org'>Stocks</a> is an application that lets you monitor the price of a stock and sends you an alert when it has reached a determined threshold.<br> I use this application as a pet project to experiment with various development practices (TDD, Continuous integration, Gitflow, Slack, Trello) and test existing and new web technologies (Rails, React, Redis...), ruby gems and js plugins in a real setting."
+  flashcard_description: "<a href='https://petstore.swagger.io/?url=http://iknow.bandanatech.org/'>Flashcard API</a> is a flashcard (learning cards) management API optimized with Redis"

@@ -47,6 +47,7 @@ body{
 
 .id_pic{
   border: 2px solid lightblue;
+  width: 120px;
 }
 
 .three_stars{
@@ -94,3 +95,7 @@ h1{
 .col-right{
   padding-left: 30px;
 }
+
+div.alwaysbreak { page-break-before: always; }
+div.nobreak:before { clear:both; }
+div.nobreak { page-break-inside: avoid; }
