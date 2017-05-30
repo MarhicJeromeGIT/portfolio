@@ -15,6 +15,8 @@ module Portfolio
     config.assets.paths << Rails.root.join("vendor", "assets", "portfolio")
     config.assets.paths << Rails.root.join("resumepdf")
 
+    config.assets.precompile += ['resume.css', 'resumepdf.css', 'photo_cv.png']
+
     I18n.available_locales = [:fr, :en, :ja]
     I18n.default_locale = :fr
   end
