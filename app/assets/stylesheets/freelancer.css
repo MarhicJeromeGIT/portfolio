@@ -558,8 +558,11 @@ fieldset[disabled] .btn-success.active {
 
 #carousel .carousel-inner{
  width: 80%;
- //min-height: 200px;
  margin: auto auto;
+}
+
+#carousel .item{
+  min-height: 200px;
 }
 
 .carousel-control.right,
