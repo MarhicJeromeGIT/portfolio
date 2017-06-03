@@ -1,4 +1,4 @@
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolio-bitcoin-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -10,12 +10,12 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Stocks</h2>
+                            <h2>Bitcoin Watcher</h2>
                             <hr class="star-primary">
-                            <%= link_to 'https://stocks.bandanatech.org' do %>
-                              <%= image_tag img_jpg_path(url: 'https://stocks.bandanatech.org'), class: "img-responsive img-centered bordered-image", alt: "" %>
+                            <%= link_to 'https://bitcoin.bandanatech.org' do %>
+                              <%= image_tag img_jpg_path(url: 'https://bitcoin.bandanatech.org'), class: "img-responsive img-centered bordered-image", alt: "" %>
                             <% end %>
-                            <p><%=raw I18n.t 'stock_description' %></p>
+                            <p><%=raw I18n.t 'bitcoin_description' %></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

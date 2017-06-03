@@ -3,21 +3,8 @@ class StaticPagesController < ApplicationController
   def index
   end
   
-  def stocks_jpg
-    # Create image of my portfolio websites: Stocks
-    kit = IMGKit.new('https://stocks.bandanatech.org')
-    send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
-  end
-
-  def blog_jpg
-    # Create image of my blog (github pages) 
-    kit = IMGKit.new('https://marhicjeromegit.github.io')
-    send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
-  end
-
-  def iknow_jpg
-     # Create image of my blog (github pages) 
-    kit = IMGKit.new('https://petstore.swagger.io/?url=http://iknow.bandanatech.org/')
+  def img_jpg
+    kit = IMGKit.new(params[:url])
     send_data(kit.to_jpg, :type => "image/jpeg", :disposition => 'inline') 
   end
 

@@ -5,9 +5,7 @@ Rails.application.routes.draw do
 
     get 'credits', to: 'static_pages#credits'
     get 'resume', to: 'resume#resume', defaults: {format: 'html'}
-    get 'stocks_jpg', to: 'static_pages#stocks_jpg', defaults: {format: 'jpg'}
-    get 'blog_jpg', to: 'static_pages#blog_jpg', defaults: {format: 'jpg'}
-    get 'iknow_jpg', to: 'static_pages#iknow_jpg', defaults: {format: 'jpg'}
+    get 'img_jpg', to: 'static_pages#img_jpg', defaults: {format: 'jpg'}
     post 'contact', to: 'static_pages#contact'
   end
 end

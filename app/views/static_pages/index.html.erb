@@ -70,6 +70,17 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolio-bitcoin-modal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Bitcoin Watcher</h3>
+                            </div>
+                        </div>
+                        <%= image_tag 'bitcoin.png', class: "img-responsive portfolio-image", alt:"bitcoin image" %>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -91,6 +102,8 @@
                         <%= image_tag 'kanji_kaze_src.png', class: "img-responsive portfolio-image", alt:"flashcard image" %>
                     </a>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -255,3 +268,4 @@
     <%= render 'stock_modal' %>
     <%= render 'blog_modal' %>
     <%= render 'flashcard_modal' %>
+    <%= render 'bitcoin_modal' %>

@@ -13,7 +13,7 @@
                             <h2>Blog</h2>
                             <hr class="star-primary">
                             <%= link_to 'https://marhicjeromegit.github.io' do %>
-                              <img src="blog_jpg.jpg" class="img-responsive img-centered bordered-image" alt="">
+                              <%= image_tag img_jpg_path(url: 'https://marhicjeromegit.github.io'), class: "img-responsive img-centered bordered-image", alt: "" %>
                             <% end %>
                             <p><%=raw I18n.t 'blog_description' %></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

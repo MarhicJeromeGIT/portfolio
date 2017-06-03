@@ -13,7 +13,7 @@
                             <h2>Flashcard API</h2>
                             <hr class="star-primary">
                             <%= link_to 'https://petstore.swagger.io/?url=http://iknow.bandanatech.org/' do %>
-                              <img src="iknow_jpg.jpg" class="img-responsive img-centered bordered-image" alt="">
+                              <%= image_tag img_jpg_path(url: 'https://petstore.swagger.io/?url=http://iknow.bandanatech.org/'), class: "img-responsive img-centered bordered-image", alt: "" %>
                             <% end %>
                             <p><%=raw I18n.t 'flashcard_description' %></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
